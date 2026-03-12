@@ -1,0 +1,13 @@
+.DS_Store
+.vscode/
+
+# Build outputs
+main
+*.exe
+*.out
+
+# Local build/packaging artifacts
+build/
+
+# Large/local assets (keep untracked unless intentionally committed)
+*.gom
