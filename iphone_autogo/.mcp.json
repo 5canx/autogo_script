@@ -1,0 +1,14 @@
+{
+  "mcpServers": {
+    "iphone-mirror": {
+      "type": "stdio",
+      "command": "/opt/homebrew/bin/go",
+      "args": [
+        "-C",
+        "${HOME}/GolandProjects/awesomeProject1/mcp-iphone-mirror",
+        "run",
+        "."
+      ]
+    }
+  }
+}

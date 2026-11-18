@@ -1,0 +1,7 @@
+[mcp_servers.iphone_mirror]
+command = "/opt/homebrew/bin/go"
+args = ["-C", "/Users/scan/GolandProjects/awesomeProject1/mcp-iphone-mirror", "run", "."]
+enabled_tools = ["get_status", "screenshot", "ocr"]
+default_tools_approval_mode = "auto"
+required = false
+startup_timeout_sec = 30
